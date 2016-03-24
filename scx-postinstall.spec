@@ -4,7 +4,7 @@ Release: alt1
 Summary: Script 'post' for install agent for SCOM
 License:  Public Domain
 Group: Monitoring
-Packager: Korneechev Evgeniy <ek@myconnector.ru>
+Packager: Korneechev Evgeniy <ekorneechev@altlinux.org>
 BuildArch: noarch
 
 Source0: %name-%version.tar.gz
@@ -23,6 +23,6 @@ install -p omi %buildroot%_sysconfdir/pam.d/
 %_sysconfdir/pam.d/omi
 
 %changelog
-* Wed Mar 23 2016 Evgeniy Korneechev <ek@myconnector.ru> 1.0-alt1
+* Wed Mar 23 2016 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0-alt1
 - Initial build
 
